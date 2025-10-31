@@ -25,10 +25,10 @@ fi
 yad --center \
     --title="Remover arquivos originais?" \
     --question \
-    --text="Deseja remover os arquivos originais após a extração?\n\n(Será removido automaticamente em 6 segundos se não houver resposta)" \
+    --text="Deseja remover os arquivos originais após a extração?\n\n(Será removido automaticamente em 15 segundos se não houver resposta)" \
     --buttons-layout=center \
     --button="Sim:0" --button="Não:1" \
-    --timeout=6 \
+    --timeout=15 \
     --timeout-indicator=bottom \
     --width="500" --height="150" \
     2>/dev/null
